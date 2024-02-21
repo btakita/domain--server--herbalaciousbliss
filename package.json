@@ -1,0 +1,52 @@
+{
+	"name": "@btakita/domain--server--herbaliciousbliss",
+	"type": "module",
+	"version": "0.0.0",
+	"description": "domain library targeting the server for herbaliciousbliss",
+	"keywords": [
+		"rappstack",
+		"reactive",
+		"full-stack",
+		"domain",
+		"server",
+		"blog"
+	],
+	"homepage": "https://github.com/btakita/domain--server--herbaliciousbliss",
+	"bugs": {
+		"url": "https://github.com/btakita/domain--server--herbaliciousbliss/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/btakita/domain--server--herbaliciousbliss.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"types": "index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./env": "./env/index.ts",
+		"./schema": "./schema/index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"env",
+		"schema"
+	],
+	"dependencies": {
+		"@rappstack/domain--server": "workspace:*",
+		"@rappstack/domain--server--auth": "workspace:*",
+		"ctx-core": "^6.4.3",
+		"relementjs": "^0.73.3",
+		"relysjs": "^1.14.6",
+		"rmemo": "^0.46.3"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.3.3"
+	}
+}

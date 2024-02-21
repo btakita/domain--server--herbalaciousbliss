@@ -1,2 +1,2 @@
-# domain--server--herbalaciousbliss
-Domain library targeting the server for herbalaciousbliss
+# domain--server--herbaliciousbliss
+Domain library targeting the server for herbaliciousbliss
