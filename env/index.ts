@@ -1,10 +1,16 @@
 export function herbaliciousbliss_server_env_() {
 	const env = import.meta.env
 	if (!env.ADMIN_EMAILS) throw Error('ADMIN_EMAILS|missing')
+	if (!env.AUTH_SECRET) throw Error('AUTH_SECRET|missing')
+	if (!env.AUTH_GITHUB_ID) throw Error('AUTH_GITHUB_ID|missing')
+	if (!env.AUTH_GITHUB_SECRET) throw Error('AUTH_GITHUB_SECRET|missing')
 	if (!env.GOOGLE_API_KEY) throw Error('GOOGLE_API_KEY|missing')
 	return env as herbaliciousbliss_server_env_T
 }
 export type herbaliciousbliss_server_env_T = {
 	ADMIN_EMAILS:string
+	AUTH_SECRET:string
+	AUTH_GITHUB_ID:string
+	AUTH_GITHUB_SECRET:string
 	GOOGLE_API_KEY:string
 }
