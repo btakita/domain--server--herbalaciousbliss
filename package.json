@@ -38,10 +38,10 @@
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
 		"@rappstack/domain--server--auth": "workspace:*",
-		"ctx-core": "^6.4.5",
-		"relementjs": "^0.73.5",
-		"relysjs": "^1.14.8",
-		"rmemo": "^0.46.5"
+		"ctx-core": "^6.5.0",
+		"relementjs": "^0.73.7",
+		"relysjs": "^1.14.10",
+		"rmemo": "^0.46.7"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
