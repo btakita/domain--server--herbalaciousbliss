@@ -1,5 +1,6 @@
+import { import_meta_env_ } from 'ctx-core/env'
 export function herbaliciousbliss_server_env_() {
-	const env = import.meta.env
+	const env = import_meta_env_()
 	if (!env.ADMIN_EMAILS) throw Error('ADMIN_EMAILS|missing')
 	if (!env.AUTH_SECRET) throw Error('AUTH_SECRET|missing')
 	if (!env.AUTH_GITHUB_ID) throw Error('AUTH_GITHUB_ID|missing')
