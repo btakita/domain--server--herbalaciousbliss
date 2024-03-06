@@ -42,7 +42,7 @@
 		"@rappstack/domain--server--auth": "workspace:*",
 		"ctx-core": "^6.5.3",
 		"relementjs": "^0.74.3",
-		"relysjs": "^1.14.18",
+		"relysjs": "^1.15.0",
 		"rmemo": "^0.46.10",
 		"drizzle-orm": "^0.29.4"
 	},
