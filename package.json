@@ -40,10 +40,10 @@
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
 		"@rappstack/domain--server--auth": "workspace:*",
-		"ctx-core": "^7.1.0",
-		"relementjs": "^0.79.0",
-		"relysjs": "^1.20.0",
-		"rmemo": "^0.50.0",
+		"ctx-core": "^7.1.1",
+		"relementjs": "^0.79.1",
+		"relysjs": "^1.20.3",
+		"rmemo": "^0.50.2",
 		"drizzle-orm": "^0.30.6"
 	},
 	"devDependencies": {
