@@ -40,16 +40,16 @@
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
 		"@rappstack/domain--server--auth": "workspace:*",
-		"ctx-core": "^7.1.4",
-		"relementjs": "^0.79.4",
-		"relysjs": "^1.20.10",
-		"rmemo": "^0.50.5",
+		"ctx-core": "^7.1.5",
+		"relementjs": "^0.79.5",
+		"relysjs": "^1.20.11",
+		"rmemo": "^0.50.6",
 		"drizzle-orm": "^0.30.7"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.4"
+		"typescript": "^5.4.5"
 	}
 }
