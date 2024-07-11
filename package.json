@@ -44,7 +44,7 @@
 		"relementjs": "^0.80.26",
 		"relysjs": "^1.21.63",
 		"rmemo": "^0.51.27",
-		"drizzle-orm": "^0.31.4"
+		"drizzle-orm": "^0.32.0"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
